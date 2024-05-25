@@ -145,10 +145,10 @@ You can get the statistics of DISD (fps, flops, \# parameters) by running `tools
 
 ```bash
 python tools/analyze.py --config-path save/COCO-InstanceSegmentation/DISD2d_R_50_3x.yaml --model-path save/COCO-InstanceSegmentation/DISD2d_final.pth --tasks speed flop parameter
+```
 
 The notebook for DISD-2D visualization is provided in `tools/visualization/DISD_2d_segmentation.ipynb`.
 
-```
 ## Citation
 ```
 @article{nguyen2021boxer,
