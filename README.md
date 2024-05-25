@@ -11,12 +11,6 @@
 
 This project is released under the [MIT License](./LICENSE).
 
-## Main Results
-
-### COCO Instance Segmentation Baselines with DISD
-
-
-
 ## Installation
 
 ### Requirements
