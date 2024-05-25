@@ -3,10 +3,6 @@
 ## Abstract.
 This paper proposes a multitask model (DISD-DETR) that combines the global modeling capabilities of Transformers, the local processing power of Convolutional Neural Networks (CNNs), and the advantages of positional encoding for end-to-end 2D object detection and instance segmentation. First, an improved ResNet is introduced into the model to enhance the feature extraction capability of the backbone network. Additionally, an improved attention mechanism tailored for instance segmentation tasks is incorporated into the Transformer encoder stage, and a reference window updating mechanism is added to the Transformer decoder to optimize attention intervals. These enhancements boost the expressiveness and discriminative power of the model’s queries and accelerate model convergence. Building on this, a new instance segmentation head is constructed to address occlusion issues, resulting in finer segmentation of leaves and spots and the extraction of more tiny spots. To improve classification performance, focal loss is employed as the classification loss and binary loss as the segmentation loss. Experimental results demonstrate that this study provides an efficient and accurate method for crop leaf disease segmentation, offering a solid foundation for precise analysis of crop leaf diseases. Our model achieves an AP of 73.9% for detection and an AP of 68.2% for segmentation on a self-constructed dataset.
 
-## License
-
-This project is released under the [MIT License](./LICENSE).
-
 ## Installation
 
 ### Requirements
