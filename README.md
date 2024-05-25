@@ -148,7 +148,7 @@ python tools/analyze.py --config-path save/COCO-InstanceSegmentation/DISD2d_R_50
 
 The notebook for DISD-2D visualization is provided in `tools/visualization/DISD_2d_segmentation.ipynb`.
 
-```bibtex
+## Citation
 @article{nguyen2021boxer,
   title={BoxeR: Box-Attention for 2D and 3D Transformers},
   author={Duy{-}Kien Nguyen and Jihong Ju and Olaf Booij and Martin R. Oswald and Cees G. M. Snoek},
